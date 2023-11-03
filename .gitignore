@@ -1,0 +1,9 @@
+# Ignore virtual env
+myenv/
+# ignore datasets
+data/
+# ignore any type of log files
+*.log
+# ignore files created by mac or text editor
+.DS_Store
+*~
