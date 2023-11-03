@@ -68,8 +68,8 @@ def plot_umap(embeddings):
         embedding[:, 0],
         embedding[:, 1],
         c = np.linspace(0, 1, len(embedding)),
-        cmap='viridis',  
-        s= 0.01
+        cmap='rainbow',  
+        s= 0.1
     )
     plt.title('UMAP of Test Data Embeddings', fontsize=20);
     plt.savefig(f'umap_embeddings_k{cluster_num}.png')
